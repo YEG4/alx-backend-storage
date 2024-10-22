@@ -1,0 +1,2 @@
+// a command to delete documents based on a condition.
+db.school.deleteMany({name:"Holberton school"});
