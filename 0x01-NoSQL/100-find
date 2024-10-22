@@ -1,2 +1,2 @@
 // a command to list all documents that starts with a string.
-db.school.find({name:{$in:{"Holberton"}}});
+db.school.find({name: /Holberton.*/}).forEach(printjson);
