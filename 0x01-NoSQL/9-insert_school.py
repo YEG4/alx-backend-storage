@@ -8,7 +8,3 @@ def insert_school(mongo_collection, **kwargs):
     """insert a document in a collection
     """
     return mongo_collection.insert_one(kwargs)
-
-
-if __name__ == "__main__":
-    insert_school(mongo_collection, kwargs)
