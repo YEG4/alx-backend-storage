@@ -1,0 +1,2 @@
+// a command to update documents inside a collection based on a condition
+db.school.updateMany({name:"Holberton school"},$set: {address:"972 Mission street”});
