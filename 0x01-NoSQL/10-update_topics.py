@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ this module is used to update a document in a collection
 """
 
