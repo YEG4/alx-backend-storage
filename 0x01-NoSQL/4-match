@@ -1,0 +1,2 @@
+// a command to list doucments based on a condition
+db.school.find({name:"Holberton school"})
