@@ -1,0 +1,2 @@
+// a command to return number of documents inside a collection.
+db.school.countDocuments();
